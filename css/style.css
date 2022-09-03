@@ -8,4 +8,34 @@
     --white: #fff;
 }
 
+body {
+    font-family: "Inter",'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--body);
+    line-height: 1.8;
+    background-color: var(--bg1);
+}
 
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Dela Gothic One", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+img {
+    width: 100%;
+    
+}
+
+section {
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+
+/* NAVBAR */
+
+/* Hero */
+ #hero {
+    background: linear-gradient(to right, #1b1f34, rgba(27, 31, 52, 0)), url(../img/123.jpg);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+ }
